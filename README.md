@@ -1,5 +1,5 @@
-Digital Ocean Ubuntu Bootstrap
-==============================
+Ubuntu LAMP Bootstrap
+=====================
 
-**Interactive Server Setup For Ubuntu Server LTS With:**  
+**Interactive Server Setup For Ubuntu Server With:**  
 Security, VIM, Logrotate, MySQL, Apache, PHP, PHP-FPM, Varnish, And SFTP
