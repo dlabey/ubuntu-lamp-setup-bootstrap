@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} !^webdevelopment.info$ [NC]
+RewriteRule ^(.*)$ http://webdevelopment.info/$1 [L,R=301]

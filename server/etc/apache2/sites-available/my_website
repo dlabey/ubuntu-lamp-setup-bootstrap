@@ -1,0 +1,15 @@
+<VirtualHost 127.0.0.1:8080>
+        ServerAdmin webmaster@mywebsite.com
+        ServerName mywebsite.com
+        ServerAlias www.mywebsite.com
+        DocumentRoot /var/www/mywebsite
+        <Directory /var/www/mywebsite>
+                Options Indexes FollowSymLinks MultiViews
+                AllowOverride All
+                Order allow,deny
+                allow from all
+        </Directory>
+        ErrorLog ${APACHE_LOG_DIR}/error.mywebsite.log
+        LogLevel warn
+        CustomLog ${APACHE_LOG_DIR}/access.mywebsite.log combined
+</VirtualHost>
